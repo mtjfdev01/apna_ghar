@@ -56,7 +56,6 @@ const handleCustomDonate = () => {
   const { showAllSections = true } = props;
   // Filter sections based on prop
   const sectionsToShow = showAllSections ? donationSections : donationSections.slice(0, 1);
-
     return (
       <div className="ltn__category-area ltn__product-gutter section-bg-1--- pt-115 pb-70">
         <div className="container">
